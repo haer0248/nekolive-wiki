@@ -35,7 +35,7 @@ const config = defineUserConfig({
         repo: 'haer0248/nekolive-wiki',
         docsRepo: 'haer0248/nekolive-wiki',
         docsBranch: 'main',
-        docsDir: 'docs',
+        docsDir: '',
         editLink: true,
         editLinkPattern: ':repo/edit/:branch/:path',
         editLinkText: 'GitHub のこのページをチェックしてください',
