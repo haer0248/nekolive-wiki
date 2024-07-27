@@ -30,14 +30,14 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: '.vuepress/dist'
+          path: 'docs/.vuepress/dist'
         
       - name: Deploy & update
         id: deployment
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: '.vuepress/dist'
+          publish_dir: 'docs/.vuepress/dist'
           publish_branch: gh-pages
           
   Deploy:
