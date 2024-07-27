@@ -25,10 +25,7 @@ const config = defineUserConfig({
         ['meta', { name: 'msapplication-TileImage', content: '/images/favicon-256x256.png' }]
     ],
 
-    bundler: viteBundler({
-        viteOptions: {},
-        vuePluginOptions: {},
-    }),
+    bundler: viteBundler({}),
 
     theme: defaultTheme({
         sidebar,
@@ -38,6 +35,7 @@ const config = defineUserConfig({
         repo: 'haer0248/nekolive-wiki',
         docsRepo: 'haer0248/nekolive-wiki',
         docsBranch: 'main',
+        docsDir: 'docs',
         editLink: true,
         editLinkPattern: ':repo/edit/:branch/:path',
         editLinkText: 'GitHub のこのページをチェックしてください',
@@ -53,9 +51,9 @@ const config = defineUserConfig({
         warning: '注意',
         danger: '警告',
         notFound: [
-            'このページは見つかりませんでした。'
+          'このページは見つかりませんでした。'
         ],
-        navbar: false,
+        navbar: false
         // navbar: [{
         //     text: '實況主斗內平台',
         //     link: 'https://nekolive.net/'
