@@ -4,7 +4,8 @@ const sidebar = {
     '/': [{
         text: '首頁',
         children: [
-            '/'
+            '/',
+            'first-use'
         ]
     }, {
         text: '功能性頁面',
@@ -27,6 +28,25 @@ const sidebar = {
             'platform',
             'profile-text',
             'profile-css'
+        ]
+    }, {
+        text: '通知功能',
+        path: '/platform-settings/',
+        prefix: '/platform-settings/',
+        children: [
+            'progress-and-notify',
+            'chatlist-style',
+            'live-notify',
+            'notfiy-image-sound'
+        ]
+    }, {
+        text: '工具教學',
+        path: '/tool/',
+        prefix: '/tool/',
+        children: [
+            'google-cloud-font',
+            'gradient',
+            'file'
         ]
     }],
 
