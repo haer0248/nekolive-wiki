@@ -12,17 +12,17 @@ const config = defineUserConfig({
     head: [
         ['meta', { charset: 'utf-8' }],
         ['meta', { name: 'theme-color', content: '#ABD1E8' }],
-        ['link', { rel: 'shortcut icon', href: '/images/favicon.ico' }],
-        ['link', { rel: 'icon', href: '/images/favicon-16x16.png', sizes: '16x16' }],
-        ['link', { rel: 'icon', href: '/images/favicon-32x32.png', sizes: '32x32' }],
-        ['link', { rel: 'icon', href: '/images/favicon-64x64.png', sizes: '64x64' }],
-        ['link', { rel: 'icon', href: '/images/favicon-128x128.png', sizes: '128x128' }],
-        ['link', { rel: 'icon', href: '/images/favicon-180x180.png', sizes: '180x180' }],
-        ['link', { rel: 'icon', href: '/images/favicon-192x192.png', sizes: '192x192' }],
-        ['link', { rel: 'icon', href: '/images/favicon-384x384.png', sizes: '384x384' }],
-        ['link', { rel: 'apple-touch-icon-precomposed', href: '/images/favicon-256x256.png' }],
-        ['link', { rel: 'image_src', type: 'image/png', href: '/images/favicon-256x256.png' }],
-        ['meta', { name: 'msapplication-TileImage', content: '/images/favicon-256x256.png' }]
+        ['link', { rel: 'shortcut icon', href: './images/favicon.ico' }],
+        ['link', { rel: 'icon', href: './images/favicon-16x16.png', sizes: '16x16' }],
+        ['link', { rel: 'icon', href: './images/favicon-32x32.png', sizes: '32x32' }],
+        ['link', { rel: 'icon', href: './images/favicon-64x64.png', sizes: '64x64' }],
+        ['link', { rel: 'icon', href: './images/favicon-128x128.png', sizes: '128x128' }],
+        ['link', { rel: 'icon', href: './images/favicon-180x180.png', sizes: '180x180' }],
+        ['link', { rel: 'icon', href: './images/favicon-192x192.png', sizes: '192x192' }],
+        ['link', { rel: 'icon', href: './images/favicon-384x384.png', sizes: '384x384' }],
+        ['link', { rel: 'apple-touch-icon-precomposed', href: './images/favicon-256x256.png' }],
+        ['link', { rel: 'image_src', type: 'image/png', href: './images/favicon-256x256.png' }],
+        ['meta', { name: 'msapplication-TileImage', content: './images/favicon-256x256.png' }]
     ],
 
     bundler: viteBundler({
