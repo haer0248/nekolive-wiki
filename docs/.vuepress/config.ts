@@ -57,7 +57,7 @@ const config = defineUserConfig({
         notFound: [
             '找不到你要的東西呢。'
         ],
-        navbar: false,
+        // navbar: false,
     }),
 })
 
