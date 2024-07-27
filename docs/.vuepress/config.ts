@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite';
 
 import sidebar from './sidebar'
+import plugins from './plugin'
 
 const config = defineUserConfig({
     base: '/nekolive-wiki/',
@@ -25,6 +26,12 @@ const config = defineUserConfig({
         ['meta', { name: 'msapplication-TileImage', content: 'images/favicon-256x256.png' }]
     ],
 
+    locales: {
+        "/": {
+            lang: "zh-TW",
+        },
+    },
+
     bundler: viteBundler({
         viteOptions: {},
         vuePluginOptions: {},
@@ -32,20 +39,19 @@ const config = defineUserConfig({
 
     theme: defaultTheme({
         colorMode: 'dark',
+        colorModeSwitch: false,
         sidebar,
         home: '/',
         logo: 'images/favicon-64x64.png',
         sidebarDepth: 3,
-        repo: 'haer0248/nekolive-wiki',
-        docsRepo: 'haer0248/nekolive-wiki',
         docsBranch: 'main',
         docsDir: 'docs',
-        editLink: true,
+        editLink: false,
         editLinkPattern: ':repo/edit/:branch/:path',
         editLinkText: '在 GitHub 上面編輯此頁面',
         lastUpdated: true,
         lastUpdatedText: '最後更新',
-        contributors: false,
+        contributors: true,
         contributorsText: '貢獻者',
         backToHome: '回首頁',
         openInNewWindow: '在新視窗中開啟',
@@ -74,6 +80,8 @@ const config = defineUserConfig({
             }]
         }]
     }),
+
+    plugins
 })
 
 export default config
