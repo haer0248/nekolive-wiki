@@ -37,7 +37,7 @@ const sidebar = {
             'progress-and-notify',
             'chatlist-style',
             'live-notify',
-            'notfiy-image-sound'
+            'notify-image-sound'
         ]
     }, {
         text: 'Twitch 機器人',
