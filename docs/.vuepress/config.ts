@@ -57,7 +57,22 @@ const config = defineUserConfig({
         notFound: [
             '找不到你要的東西呢。'
         ],
-        // navbar: false,
+        navbar: [{
+            text: '支援 Discord',
+            link: 'https://discord.gg/haer0248'
+        }, {
+            text: '開發者',
+            children: [{
+                text: '飯糰 Blog',
+                link: 'https://haer0248.me/'
+            }, {
+                text: 'Twitter',
+                link: 'https://twitter.com/haer0248'
+            }, {
+                text: '贊助養樂多',
+                link: 'https://nekolive.net/haer0248'
+            }]
+        }]
     }),
 })
 
