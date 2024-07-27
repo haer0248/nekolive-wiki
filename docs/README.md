@@ -6,6 +6,13 @@
 網站設立於 2023/04 至今，由 [猫又おにぎり](https://github.com/haer0248) 維護。  
 沒有東西可以寫了。
 
+## 平台為申請制
+若有使用需求請 加入 Discord 後聯繫 **一隻貓 (nekomataonigiri)** 或 **HoneyCat (honeycat_0121)**。  
+[還沒看過平台介紹的可以點我去看看](https://nekolive.net/)
+
+::: warning 只有擁有帳號的才可以用，亂猜亂踹都沒辦法用。
+:::
+
 ## 開發人員
 [猫又おにぎり](https://github.com/haer0248) - 網頁/伺服器維護
 

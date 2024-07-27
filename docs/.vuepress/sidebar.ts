@@ -40,6 +40,13 @@ const sidebar = {
             'notfiy-image-sound'
         ]
     }, {
+        text: 'Twitch 機器人',
+        path: '/twitch-bot/',
+        prefix: '/twitch-bot/',
+        children: [
+            'readme.md'
+        ]
+    }, {
         text: '工具教學',
         path: '/tool/',
         prefix: '/tool/',
