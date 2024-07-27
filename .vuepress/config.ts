@@ -5,7 +5,7 @@ import { viteBundler } from '@vuepress/bundler-vite';
 import sidebar from './sidebar'
 
 const config = defineUserConfig({
-    base: '/',
+    base: '/nekolive-wiki/',
     lang: 'zh-TW',
     title: '實況主斗內平台文件',
     description: '',
@@ -38,7 +38,7 @@ const config = defineUserConfig({
         repo: 'haer0248/nekolive-wiki',
         docsRepo: 'haer0248/nekolive-wiki',
         docsBranch: 'main',
-        docsDir: '',
+        docsDir: './',
         editLink: true,
         editLinkPattern: ':repo/edit/:branch/:path',
         editLinkText: 'GitHub のこのページをチェックしてください',
