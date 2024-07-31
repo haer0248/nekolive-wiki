@@ -53,7 +53,8 @@ const sidebar = {
         children: [
             'google-cloud-font',
             'gradient',
-            'file'
+            'file',
+            'live-notify'
         ]
     }],
 
