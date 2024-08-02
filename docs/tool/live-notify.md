@@ -48,3 +48,14 @@
 找到建立的 Webhook 刪除即可
 
 ![Image](/images/tool/live-notify-5.png)
+
+### 未成功發送通知
+
+1. 檢查 Webhook 網址設定是否正確
+2. 檢查是否未設定分類，未設定分類不會發送通知
+
+都正確還是沒通知，找那隻貓
+
+### 未成功標註身分組
+
+檢查機器人 (NekoLiveBot#4325) 是否包含「提及 @everyone、@here 和所有身分組」
