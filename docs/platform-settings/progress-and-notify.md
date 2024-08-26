@@ -33,12 +33,13 @@
 |參數|設定|說明|適用樣式|
 |---|---|---|---|
 |v|1, 2, 3, 4<br>subs, follow, bits, subs-gift|進度條編號|所有皆可|
-|reverse|true (是), false (否)|將進度反向顯示|DonationGoal<br>DonationGoal1<br>DonationGoal2<br>DonationGoal2R|
+|reverse|true (是), false (否)|將進度反向顯示|DonationGoal<br>DonationGoal1<br>DonationGoal2<br>DonationGoal2R<br>DonationCustomStyle|
 |size|30 (整數)|文字大小|DonationGoal1<br>DonationGoal2R<br>DonationClear|
 |radius|true (是), false (否)|將進度條設為圓角|DonationGoal<br>DonationGoal1<br>DonationGoal2R|
 |template|指定格式（請看旁邊樣式選擇）|DonationClear文字位置|DonationGoal|
-|no-percent|true (是), false (否)|不顯示 xx%|DonationGoal<br>DonationGoal1|
-|only-percent|true (是), false (否)|僅顯示 xx%|DonationGoal<br>DonationGoal1|
+|template|指定樣式|DonationCustomStyle 自訂欄位編號|DonationCustomStyle|
+|no-percent|true (是), false (否)|不顯示 xx%|DonationGoal<br>DonationGoal1<br>DonationCustomStyle|
+|only-percent|true (是), false (否)|僅顯示 xx%|DonationGoal<br>DonationGoal1<br>DonationCustomStyle|
 |no-comma|true (是), false (否)|不顯示格式化千分位|所有皆可|
 
 ::: tip 參數使用教學
@@ -82,6 +83,10 @@
 樣式名稱：`DonationClear`  
 
 ![Image](https://image.haer0248.me/46wdH0.png)
+
+樣式名稱：`DonationCustomStyle`  
+
+![Image](https://image.haer0248.me/RScgWk.png)
 
 ::: tip DonationClear 額外可設定資料
 1. 網址後方設定 `?template=` 來選擇要怎麼顯示進度條格式  
