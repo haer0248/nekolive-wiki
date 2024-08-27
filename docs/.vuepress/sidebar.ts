@@ -27,7 +27,8 @@ const sidebar = {
             'socials',
             'platform',
             'profile-text',
-            'profile-css'
+            'profile-css',
+            'user-manager'
         ]
     }, {
         text: '通知功能',
