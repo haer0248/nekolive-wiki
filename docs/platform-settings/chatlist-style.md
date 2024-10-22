@@ -24,6 +24,7 @@
 |size|整數|300|設定在水平模式下，單個斗內訊息的寬度<br>（建議設定 200 以上）|
 |no-newline|true (是), false (否)|false|超出寬度時，文字最後方顯示 ...|
 |keep-box|true (是), false (否)|false|沒有留言時下方保留空白|
+|no-box|true (是), false (否)|false|不顯示留言|
 |hide-avatar|true (是), false (否)|false|隱藏頭貼|
 |no-comma|true (是), false (否)|false|不顯示格式化千分位|
 
