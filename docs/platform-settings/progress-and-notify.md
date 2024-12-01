@@ -108,7 +108,7 @@
 :::: code-group
 ::: code-group-item 參考格式
 ```:no-line-numbers
-Widgets/DonationClear/您的 UUID`?template=讓我達成 {title}！`
+Widgets/DonationClear/您的 UUID?template=讓我達成 {title}！
 ```
 :::
 ::::
@@ -116,7 +116,7 @@ Widgets/DonationClear/您的 UUID`?template=讓我達成 {title}！`
 :::: code-group
 ::: code-group-item 參考格式
 ```:no-line-numbers
-/Widgets/DonationGoal3/您的 UUID`?title=給我錢！&template={title}%20({percent})`
+Widgets/DonationGoal3/您的 UUID?title=給我錢！&template={title}%20({percent})
 ```
 :::
 ::::
