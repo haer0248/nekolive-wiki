@@ -113,8 +113,6 @@ Widgets/DonationClear/您的 UUID`?template=讓我達成 {title}！`
 :::
 ::::
 
-![Image](https://image.haer0248.me/tsFxif.png)  
-
 :::: code-group
 ::: code-group-item 參考格式
 ```:no-line-numbers
@@ -122,6 +120,8 @@ Widgets/DonationClear/您的 UUID`?template=讓我達成 {title}！`
 ```
 :::
 ::::
+
+![Image](https://image.haer0248.me/tsFxif.png)  
 
 ## 通知格式
 
