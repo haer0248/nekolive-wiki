@@ -34,14 +34,15 @@
 |參數|設定|說明|適用樣式|
 |---|---|---|---|
 |v|1, 2, 3, 4<br>subs, follow, bits, subs-gift|進度條編號|所有皆可|
-|reverse|true (是), false (否)|將進度反向顯示|DonationGoal<br>DonationGoal1<br>DonationGoal2<br>DonationGoal2R<br>DonationCustomStyle|
+|reverse|true (是), false (否)|將進度反向顯示|DonationGoal<br>DonationGoal1<br>DonationGoal2<br>DonationGoal2R<br>DonationCustomStyle<br>DonationGoal3|
 |size|30 (整數)|文字大小|DonationGoal1<br>DonationGoal2R<br>DonationClear|
 |radius|true (是), false (否)|將進度條設為圓角|DonationGoal<br>DonationGoal1<br>DonationGoal2R|
-|template|指定格式（請看旁邊樣式選擇）|DonationClear文字位置|DonationGoal|
+|template|指定格式|DonationClear、DonationClear 格式|DonationClear<br>DonationGoal3|
 |template|指定樣式|DonationCustomStyle 自訂欄位編號|DonationCustomStyle|
 |no-percent|true (是), false (否)|不顯示 xx%|DonationGoal<br>DonationGoal1<br>DonationCustomStyle|
 |only-percent|true (是), false (否)|僅顯示 xx%|DonationGoal<br>DonationGoal1<br>DonationCustomStyle|
 |no-comma|true (是), false (否)|不顯示格式化千分位|所有皆可|
+|title|文字|顯示在特別進度條上的文字|DonationGoal3|
 
 ::: tip 參數使用教學
 |範例|
@@ -89,13 +90,38 @@
 
 ![Image](https://image.haer0248.me/RScgWk.png)
 
-::: tip DonationClear 額外可設定資料
-1. 網址後方設定 `?template=` 來選擇要怎麼顯示進度條格式  
-使用 `{title}` 覆蓋為目標標題，`{goal}` 目標金額，`{total}` 已斗內金額。  
-2. 設定範例  
-Widgets/DonationClear/您的 UUID`?template=讓我達成 {title}！` 就會顯示為 **讓我達成 {目標標題}！**  
-3. 同時設定另一個進度條則是 `?template=讓我達成 {title}！&v=2`，就會計算為進度條２並顯示自訂格式訊息。
+樣式名稱：`DonationGoal3`  
+
+![Image](https://image.haer0248.me/tfTZFh.png)
+ 
+### DonationGoal3 與 DonationClear 樣式特別功能
+
+可自訂顯示文字格式，可以參考上方 `參數使用教學`。
+
+|參數|資料|
+|---|---|
+|`{title}`|目標標題|
+|`{goal}`|已達成斗內目標金額|
+|`{total}`|斗內目標金額|
+|`{percent}`|已達成斗內 % 數 (若設定為反向將會使用 100 扣除 % 數)|
+
+:::: code-group
+::: code-group-item 參考格式
+```:no-line-numbers
+Widgets/DonationClear/您的 UUID`?template=讓我達成 {title}！`
+```
 :::
+::::
+
+![Image](https://image.haer0248.me/tsFxif.png)  
+
+:::: code-group
+::: code-group-item 參考格式
+```:no-line-numbers
+/Widgets/DonationGoal3/您的 UUID`?title=給我錢！&template={title}%20({percent})`
+```
+:::
+::::
 
 ## 通知格式
 
