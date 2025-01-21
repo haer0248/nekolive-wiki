@@ -8,12 +8,6 @@
 
 ![Image](/images/platform-settings/live-notfiy.png)
 
-## Discord 通知
-::: warning
-此功能並沒有開放給所有平台使用者可使用，若您的頁面中沒有出現這個功能，請聯繫您的平台管理人員詢問。
-:::
-![Image](/images/platform-settings/live-notfiy-2.png)
-
 ## 通知自訂 CSS 設定
 
 可以自由調整通知跳出來的顏色及文字大小。
