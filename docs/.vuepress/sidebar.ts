@@ -12,7 +12,6 @@ const sidebar = {
         path: '/features/',
         prefix: '/features/',
         children: [
-            'widgets',
             'sponsor-list',
             'media-request',
             'timer',
@@ -41,13 +40,6 @@ const sidebar = {
             'notify-image-sound'
         ]
     }, {
-        text: 'Twitch 機器人',
-        path: '/twitch-bot/',
-        prefix: '/twitch-bot/',
-        children: [
-            'readme.md'
-        ]
-    }, {
         text: '工具教學',
         path: '/tool/',
         prefix: '/tool/',
@@ -55,7 +47,8 @@ const sidebar = {
             'google-cloud-font',
             'gradient',
             'file',
-            'live-notify'
+            'live-notify',
+            'alert-self-debug',
         ]
     }],
 
