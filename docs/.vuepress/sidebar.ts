@@ -2,42 +2,64 @@
 
 const sidebar = {
     '/': [{
-        text: '首頁',
+        text: '/',
         children: [
             '/',
-            'first-use'
+            'first-use',
+            'dashboard',
+            'faq',
         ]
     }, {
-        text: '功能性頁面',
+        text: '功能頁面 FEATURES',
         path: '/features/',
         prefix: '/features/',
         children: [
             'sponsor-list',
             'media-request',
             'timer',
+            'qrcode',
+            'vip',
+            'bind-discord',
+            'sign',
         ]
     }, {
-        text: '平台設定',
+        text: '平台設定 SETTINGS',
         path: '/platform-settings/',
         prefix: '/platform-settings/',
         children: [
-            'index',
-            'profile',
-            'socials',
-            'platform',
-            'profile-text',
-            'profile-css',
-            'user-manager'
+            {
+                text: '斗內頁面',
+                path: '/platform-settings/profile',
+                prefix: '/platform-settings/profile',
+                children: [
+                    'index',
+                    'profile',
+                    'platform',
+                    'socials',
+                    'profile-text',
+                ]
+            },
+            {
+                text: '直播工具',
+                path: '/platform-settings/tools',
+                prefix: '/platform-settings/tools',
+                children: [
+                    'chat-list-setup',
+                    'chat-list',
+                    'discord-notify',
+                    'notify-image-sound',
+                    'notify',
+                    'progress'
+                ]
+            }
         ]
     }, {
-        text: '通知功能',
-        path: '/platform-settings/',
-        prefix: '/platform-settings/',
+        text: '帳號 ACCOUNT',
+        path: '/account/',
+        prefix: '/account/',
         children: [
-            'progress-and-notify',
-            'chatlist-style',
-            'live-notify',
-            'notify-image-sound'
+            'file',
+            'user-manager',
         ]
     }, {
         text: '工具教學',
@@ -46,9 +68,7 @@ const sidebar = {
         children: [
             'google-cloud-font',
             'gradient',
-            'file',
-            'live-notify',
-            'alert-self-debug',
+            'live-notify'
         ]
     }],
 

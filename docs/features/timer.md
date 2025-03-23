@@ -4,26 +4,28 @@
 此功能並沒有開放給所有平台使用者可使用，若您的頁面上方沒有出現這個頁籤，請聯繫您的平台管理人員詢問。
 :::
 
+![Image](/images/features/timer/timer.png)
+
 > ~~挖草勒，整個頁面看起來落落長，這是在寫三小阿。~~  
 > 對，我知道，但其實蠻重要的，真的。
 
 ## 側邊欄
+
+![Image](/images/features/timer/page.png)
+
 |按鈕|說明|
 |---|---|
 |暫停|暫停計時器|
 |繼續|繼續計時器|
-|遠端重整|遠端從後台重整執行中的瀏覽器|
 |儲存時間|將執行中的瀏覽器剩餘秒數儲存到伺服器|
+|遠端重整|遠端從後台重整執行中的瀏覽器|
 
 篡改時間：顧名思義可以改時間，在數字前方新增 `-` 就可以變更為減少時間。
-
-![Image](/images/features/timer-5.png)
-
 快速加時：左側規則設定完之後，這邊就可以快速計算並新增時間。
 
-![Image](/images/features/timer-6.png)
-
 ## 計時器設定
+
+![Image](/images/features/timer/setup.png)
 
 ### 起始長度
 【一定要先設定】可以輸入 `時:分:秒` 的時間格式化，或是 `秒`。
@@ -37,29 +39,45 @@
 如果輸入為 `秒`，平台會協助自動轉換為格式化時間 `時:分:秒`
 :::
 
+
 ### 已儲存的時間
+
 顯示出來讓你們知道「現在伺服器中幫你儲存了多少剩餘時間」
 
-![Image](/images/features/timer.png)
+### 重設起始長度與儲存的時間
+
+當勾選「重設起始長度」時，才會變更起始長度。當有變更起始長度，表示已儲存的時間會被重置，請重新整理 OBS 上的瀏覽器。
+
+### 當歸 0 時停止計時
+
+此設定預設啟用，可以選擇計時器當歸 0 的時候是否結束執行，直到重新設定。
 
 ## 計時器樣式
+
 他想要長怎樣，由你自己決定。  
 
-![Image](/images/features/timer-2.png)
+![Image](/images/features/timer/style.png)
 
 :::tip 平台支援字體（輸入以下名稱即可）
 - jf open 粉圓 2.0
+- 俐方體11號
+- 源泉圓體
 :::
 
 ## 計時器規則
 加多少、減多少、自己設定。
 
-![Image](/images/features/timer-3.png)
-![Image](/images/features/timer-4.png)
+![Image](/images/features/timer/rule-1.png)
 
-> 這頁面說難不難、說簡單不簡單，因為其實都已經是白話文，看了就懂了餒 ...
+![Image](/images/features/timer/rule-2.png)
+
+![Image](/images/features/timer/rule-3.png)
+
+> 詳細閱讀輸入框文字及設定，注意單位，基本上應該沒什麼太大問題。
 
 ## Twitch 忠誠點數計時
 ::: warning 此功能僅有啟用忠誠點數兌換的使用者可以使用。 
 :::
 當將回應設定為 `TIMER#<數字>`，例如 `TIMER#600` 可以在觀眾兌換這個忠誠點數的時候新增計時器 10 分鐘，當然，也支援負數（減少）。
+
+![Image](/images/features/timer/twitch-reward.png)

@@ -22,7 +22,7 @@ const plugins: PluginConfig = [
                 loading: "正在讀取索引...",
             }
         }
-    }),
+    }),    
 ];
 
 export default plugins;
