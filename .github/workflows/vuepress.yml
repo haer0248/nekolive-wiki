@@ -12,12 +12,12 @@ jobs:
       
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 升級到 v4
         with:
           submodules: 'recursive'
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 # 升級到 v4
         with:
           node-version: 20
 
@@ -28,13 +28,13 @@ jobs:
         run: npm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3 # 目前最新版本是 v3，非 v4，保持最新
         with:
           path: 'docs/.vuepress/dist'
         
       - name: Deploy & update
         id: deployment
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3 # 此 action 目前仍為 v3，未有 v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: 'docs/.vuepress/dist'
@@ -56,4 +56,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4 # 升級到 v4
