@@ -7,7 +7,7 @@
 沒有東西可以寫了。
 
 ## 平台為申請制
-若有使用需求請加入 Discord 後聯繫 **一隻貓 (nekomataonigiri)** 或 **HoneyCat (honeycat_0121)**。  
+若有使用需求請加入 Discord 後聯繫 **一隻貓貓 (nekomataonigiri)** 或 **HoneyCat (honeycat_0121)**。  
 [還沒看過平台介紹的可以點我去看看](https://nekolive.net/)  
 或使用[自助申請連結](https://apply.nekolive.net)
 
@@ -15,8 +15,8 @@
 :::
 
 ## 管理人員
-[猫又おにぎり](https://github.com/haer0248) - 網頁／伺服器維護
-[蜜糖貓](https://www.twitch.tv/honeycat_0121) - 打醬油的
+- [猫又おにぎり](https://github.com/haer0248) - 網頁／伺服器維護  
+- [蜜糖貓](https://www.twitch.tv/honeycat_0121) - 打醬油的
 
 ## 聯繫我們
 contact@nekolive.net  
