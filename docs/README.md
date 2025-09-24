@@ -14,11 +14,12 @@
 ::: warning 只有擁有帳號的才可以用，亂猜亂踹都沒辦法用。
 :::
 
-## 開發人員
-[猫又おにぎり](https://github.com/haer0248) - 網頁/伺服器維護
+## 管理人員
+[猫又おにぎり](https://github.com/haer0248) - 網頁／伺服器維護
+[蜜糖貓](https://www.twitch.tv/honeycat_0121) - 打醬油的
 
 ## 聯繫我們
 contact@nekolive.net  
-[支援 Discord 社群](https://discord.gg/VaQAY2s)
+[官方 Discord 支援社群](https://discord.gg/phfQxBxz6v)
 
-![Image](https://image.haer0248.me/discord_banner)
+![Image](https://image.haer0248.me/discord_nekolive_banner)
