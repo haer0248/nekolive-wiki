@@ -65,7 +65,7 @@ const config = defineUserConfig({
         ],
         navbar: [{
             text: '支援 Discord',
-            link: 'https://discord.gg/haer0248'
+            link: 'https://discord.gg/phfQxBxz6v'
         }, {
             text: '開發者',
             children: [{
@@ -75,7 +75,7 @@ const config = defineUserConfig({
                 text: 'Twitter',
                 link: 'https://twitter.com/haer0248'
             }, {
-                text: '贊助養樂多',
+                text: '資助平台營運',
                 link: 'https://nekolive.net/haer0248'
             }]
         }]
