@@ -2,7 +2,8 @@
 
 ::: danger 如果沒有設定此頁面其中一個金流功能將無法使用斗內頁面進行收款，請記得一定要設定！
 :::
-目前支援 [綠界科技](https://www.ecpay.com.tw/)、[歐付寶](https://www.opay.tw/)、[Paypal](https://www.paypal.com/tw/home)、[統一金流](https://www.payuni.com.tw/)、[藍新金流](https://www.newebpay.com/)。  
+目前支援 [應援科技](https://oen.tw/)、[綠界科技](https://www.ecpay.com.tw/)、[歐付寶](https://www.opay.tw/)、[Paypal](https://www.paypal.com/tw/home)、[統一金流](https://www.payuni.com.tw/)、[藍新金流](https://www.newebpay.com/)。 
+
 ::: warning 綠界／歐付寶使用者請注意
 平台的串接方式是透過 API 串接，並不是擷取伺服器的回傳資料，所以查詢訂單並不是在實況主收款明細。  
 請切換至 [（綠界）帳務管理 / 銷售明細](https://payment.ecpay.com.tw/SellerMember/QueryTrade) / [（歐付寶）帳務管理 / 銷售明細](https://payment.opay.tw/SellerMember/QueryTrade) 查詢。
@@ -13,6 +14,11 @@
 以下資料都是模擬環境資料，不要跟著輸入。
 
 ## 查詢資料教學
+
+### 應援科技
+
+由於應援科技有獨立設定頁面，請前往以下網址進行查詢
+[streamer.nekolive.net/oen-tutorial](https://streamer.nekolive.net/oen-tutorial)
 
 ### [綠界科技](https://vendor.ecpay.com.tw/Frame/Index)
 
