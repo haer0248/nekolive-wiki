@@ -5,25 +5,23 @@ const sidebar = {
         text: '/',
         children: [
             '/',
-            'first-use',
             'dashboard',
             'faq',
         ]
     }, {
-        text: '功能頁面 FEATURES',
+        text: '功能頁面',
         path: '/features/',
         prefix: '/features/',
         children: [
             'sponsor-list',
+            'sponsor-analytics',
             'media-request',
             'timer',
-            'qrcode',
             'vip',
-            'bind-discord',
             'sign',
         ]
     }, {
-        text: '平台設定 SETTINGS',
+        text: '平台設定',
         path: '/platform-settings/',
         prefix: '/platform-settings/',
         children: [
@@ -54,11 +52,13 @@ const sidebar = {
             }
         ]
     }, {
-        text: '帳號 ACCOUNT',
+        text: '帳號',
         path: '/account/',
         prefix: '/account/',
         children: [
             'file',
+            'bind-discord',
+            'qrcode',
             'user-manager',
         ]
     }, {

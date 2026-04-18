@@ -52,6 +52,4 @@
 
 ### [統一金流](https://www.payuni.com/)
 
-![Image](/images/platform-settings/platform/payuni.png)  
-![Image](/images/platform-settings/platform/payuni-2.png)  
-![Image](/images/platform-settings/platform/payuni-3.png)  
+> 我們正在與統一金流進行串接，請等待我們的公告。

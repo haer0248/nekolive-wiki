@@ -7,4 +7,4 @@
 因檔案轉換的關係，目前僅支援 `png`、`jpg`。
 :::
 
-![Image](/images/features/qrcode.png)
+![Image](/images/account/qrcode.png)
