@@ -9,7 +9,7 @@
 ## 平台為申請制
 若有使用需求請加入 Discord 後聯繫 **猫又おにぎり (nekomataonigiri)** 或 **Honeycat蜜糖貓 (honeycat_0121)**。  
 [還沒看過平台介紹的可以點我去看看](https://nekolive.net/)  
-或使用[自助申請連功能](https://apply.nekolive.net)
+或使用[自助申請功能](https://apply.nekolive.net)
 
 ::: warning 只有擁有帳號的才可以用，亂猜亂踹都沒辦法用。
 :::
