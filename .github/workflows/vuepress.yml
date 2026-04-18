@@ -34,7 +34,7 @@ jobs:
         
       - name: Deploy & update
         id: deployment
-        uses: peaceiris/actions-gh-pages@v3 # 此 action 目前仍為 v3，未有 v4
+        uses: peaceiris/actions-gh-pages@v4 # 此 action 目前仍為 v3，未有 v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: 'docs/.vuepress/dist'
